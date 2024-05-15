@@ -2,6 +2,9 @@ name: 'Create a release'
 description: 'Create a release for a tag in your repository'
 author: 'easyware.io'
 inputs:
+  token:
+    description: 'GitHub token'
+    required: true
   tag_name:
     description: 'The name of the tag. This should come from the webhook payload, `github.GITHUB_REF` when a user pushes a new tag'
     required: true
@@ -30,6 +33,9 @@ inputs:
     required: false
   repo:
     description: 'Repository on which to release.  Used only if you want to create the release on another repo'
+    required: false
+  make_latest:
+    description: 'Optional. Possible values are `true`, `false` and `legacy`'
     required: false
 outputs:
   data:
