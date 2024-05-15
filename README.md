@@ -24,10 +24,10 @@ The action results an output called `data` that has this information:
 
 ```json
 {
-  "url": "https://github.com/api/v3/repos/easyware-io/get-release/releases/53665",
-  "assets_url": "https://github.com/api/v3/repos/easyware-io/get-release/releases/53665/assets",
-  "upload_url": "https://github.com/api/uploads/repos/easyware-io/get-release/releases/53665/assets{?name,label}",
-  "html_url": "https://github.com/easyware-io/get-release/releases/tag/v1.0.0",
+  "url": "https://github.com/api/v3/repos/easyware-io/create-release/releases/53665",
+  "assets_url": "https://github.com/api/v3/repos/easyware-io/create-release/releases/53665/assets",
+  "upload_url": "https://github.com/api/uploads/repos/easyware-io/create-release/releases/53665/assets{?name,label}",
+  "html_url": "https://github.com/easyware-io/create-release/releases/tag/v1.0.0",
   "id": 53665,
   "author": {
     "login": "username",
@@ -58,8 +58,8 @@ The action results an output called `data` that has this information:
   "created_at": "2024-05-14T10:08:54Z",
   "published_at": "2024-05-14T15:48:49Z",
   "assets": [],
-  "tarball_url": "https://github.com/api/v3/repos/easyware-io/get-release/tarball/v1.0.0",
-  "zipball_url": "https://github.com/api/v3/repos/easyware-io/get-release/zipball/v1.0.0",
+  "tarball_url": "https://github.com/api/v3/repos/easyware-io/create-release/tarball/v1.0.0",
+  "zipball_url": "https://github.com/api/v3/repos/easyware-io/create-release/zipball/v1.0.0",
   "body": ""
 }
 ```
