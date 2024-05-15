@@ -42,5 +42,5 @@ runs:
   using: 'node20'
   main: 'dist/index.js'
 branding:
-  icon: tag
+  icon: shield
   color: orange
