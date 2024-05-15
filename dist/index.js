@@ -52,9 +52,9 @@ function run() {
             const currentOwner = github.context.repo.owner;
             const currentRepo = github.context.repo.repo;
             core.debug('Getting inputs from the user');
-            const token = core.getInput('github-token', { required: true });
+            const token = core.getInput('token', { required: true });
             const tag_name = core.getInput('tag_name', { required: true });
-            const name = core.getInput('name', { required: true }).replace('refs/tags/', '');
+            const name = core.getInput('release_name', { required: true }).replace('refs/tags/', '');
             const body = core.getInput('body');
             const body_path = core.getInput('body_path');
             const draft = core.getInput('draft') === 'true';
