@@ -2,7 +2,7 @@
   "name": "create-release",
   "version": "1.0.0",
   "private": true,
-  "description": "An Action to create releases via the GitHub Release API",
+  "description": "Create a release for a tag in your repository",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",

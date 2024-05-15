@@ -22,6 +22,7 @@ export default async function run(): Promise<void> {
     const make_latest_raw = core.getInput('make_latest');
     const make_latest = make_latest_raw === 'true' || make_latest_raw === 'false' || make_latest_raw === 'legacy' ? make_latest_raw : undefined;
 
+    core.debug('Checking body');
     let bodyFileContent = null;
     if (body_path !== '' && !!body_path) {
       try {
